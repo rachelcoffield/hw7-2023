@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/portfolio_logo.jpg.jpg"/>
     <link rel = "stylesheet" type = "text/css" href = "css/style.css">
     <link rel = "stylesheet" type = "text/css" href = "css/html5reset.css">
     <title>Academics</title>
@@ -11,34 +12,45 @@
 <body>
     <!-- flex -->
     <header>
-    <a href = "#main" >Skip to main content</a>
+    <a href = "#main" class = "skip">Skip to main content</a>
         <nav>
-            <ol> 
+            <ul class = "navLinks"> 
                 <li class = "navItem"><a href = "index.html"> Home </a> </li>
                 <li class = "navItem"><a href = "academics.html" class = "active"> Academics </a> </li>
                 <li class = "navItem"><a href = "experience.html">Experience</a></li>
                 <li class = "navItem"><a href = "about.html"> About</a></li>
-            </ol>
+            </ul>
         </nav>  
     </header>
     <main id = "main">
         <br>
-        <h1>Academics</h1>
-        <p>I started my freshman year at the University of Michigan in 2019. Now, as I'm only a few weeks from graduating, I love reflecting back on everything I've done.</p>
-        <h2>Majors and Minors</h2>
-        <p>I will be graduating with a B.A. in Communication and Media. I completed two minors: UX Design and Digital Studies. I also completed the Ross School of Business Cappo Sales Track.</p>
-        <h2>Involvement</h2>
+        <h1 class = "h1">Academics</h1>
+        <div class = "academicsPara">
+            <p>I started my freshman year at the University of Michigan in 2019. Now, as I'm only a few weeks from graduating, reflecting back on everything I've done is bittersweet.</p>
+            <br>
+            <div class = "majors">
+                <h2>Majors and Minors</h2>
+                <p>I will be graduating with a B.A. in Communication and Media. I completed two minors: UX Design and Digital Studies. I also completed the Ross School of Business Cappo Sales Track.</p>
+            </div>
+            <br>
 
-        <h2>Awards, Honors, and Certificates</h2>
-        <p>I was honored to receive the following recognitions during my time a Michigan:</p>
-        <ul class = "awardList">
-            <li>Recipient of the John & Clara Brumm Award given for outstanding performance in the field of Communication and Media
-            <li>Five-term James B. Angell Scholar given for consecutive semesters of all A's</li>
-            <li>Received a certificate of completion for the Successful Negotiation: Essential Strategies and Skills through the Ross School of Business</li>
-        </ul>
+            <div class = "awards">
+                <h2>Awards, Honors, and Certificates</h2>
+                <p>I was honored to receive the following recognitions during my time a Michigan:</p>
+                <ul class = "awardList">
+                    <li>&#x2022; Recipient of the John & Clara Brumm Award given for outstanding performance in the field of Communication and Media
+                    <li>&#x2022; Five-term James B. Angell Scholar given for consecutive semesters of all A's</li>
+                    <li>&#x2022; Received a certificate of completion for the Successful Negotiation: Essential Strategies and Skills through the Ross School of Business</li>
+                </ul>
+            </div>
+            <br>
+
+            <h2 class = "involvement">Some of my favorite places and views from campus:</h2>
+            <br>
+         </div>
         <!-- gallery -->
         <div class = "academicsContainer">
-            <img src = "images/IMG_1880.jpg" alt = "The University of Michigan diag, an open brick space, and the American flag" class = "firstWindowImage">
+            <img src = "images/IMG_1880.jpg" alt = "The University of Michigan diag, an open brick walking space, and the American flag" class = "firstWindowImage">
 
             <img src = "images/IMG_2338.jpg" alt = "The Michigan Theater, a movie theater on the University of Michigan campus" class = "secondRowFirstHalfColumn">
 
@@ -71,5 +83,6 @@
         <img src = "images/umsi_logo2.jpeg" alt = "Navy blue background with a yellow Block M and white text that reads 'UMSI">
         <img src = "images/manual.webp" alt = "The front of a tall brick building with 2 spires on the top"> -->
     </main>
+    <script src="js/sample.js"></script>
 </body>
 </html>
